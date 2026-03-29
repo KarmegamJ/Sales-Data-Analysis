@@ -45,6 +45,7 @@ Least_Month = Month_sales.tail(1)
 Total_Revenue = sales_data["Total_Sales"].sum()
 print("Total revenue :",Total_Revenue)
 
+
 Total_Avg_Revenue = sales_data["Total_Sales"].mean()
 print("Total avg revenue :",Total_Avg_Revenue)
 
@@ -91,6 +92,8 @@ print(Average_order)
 #Create report
 print("\n---Sales Report---")
 print(f"Total revenue : ₹{Total_Revenue:,.2f}")
+
+print(f"Total Quantity : {Total_Quantity}")
 
 print(f"Total Average Revenue : ₹{Total_Avg_Revenue:,.2f}")
 
