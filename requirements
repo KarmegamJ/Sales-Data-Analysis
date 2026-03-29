@@ -1,0 +1,9 @@
+🎯 Project: Sales Data Analysis
+Analyze a simple sales dataset to find: total sales, best-selling product, and create a basic report
+
+🛠️ Technical Requirements:
+        Use pandas to load and analyze data
+        Handle missing values appropriately
+        Calculate at least 3 different metrics
+        Create a clean, formatted report
+        Add comments explaining each step
