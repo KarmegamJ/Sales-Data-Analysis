@@ -44,6 +44,11 @@ Least_Month = Month_sales.tail(1)
 #Analysis data
 Total_Revenue = sales_data["Total_Sales"].sum()
 print("Total revenue :",Total_Revenue)
+
+Total_Avg_Revenue = sales_data["Total_Sales"].mean()
+print("Total avg revenue :",Total_Avg_Revenue)
+
+
 Total_Quantity = sales_data["Quantity"].sum()
 print("Total quantity :" ,Total_Quantity)
 
@@ -87,6 +92,8 @@ print(Average_order)
 print("\n---Sales Report---")
 print(f"Total revenue : ₹{Total_Revenue:,.2f}")
 
+print(f"Total Average Revenue : ₹{Total_Avg_Revenue:,.2f}")
+
 print(f"Total quantity : ₹{Total_Quantity:,.2f}")
 
 print("\nTop Products :")
@@ -124,7 +131,7 @@ for Date, Total_Sales in Least_Day.items():
 print("\nTop sale on Month :")
 for Month, Total_Sales in Top_Month.items():
     print(f"{Month} : ₹{Total_Sales}")
-    
+
 print("\nLeast sale on Month :")
 for Month, Total_Sales in Least_Month.items():
     print(f"{Month} : ₹{Total_Sales}")

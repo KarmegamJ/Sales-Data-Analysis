@@ -11,7 +11,12 @@ Analyze a simple sales dataset to find: total sales, best-selling product, and c
 
 
 ---Sales Report---
+
 Total revenue : ₹12,365,048.00
+
+Total Average Revenue : ₹123650.48
+
+Total quantity : ₹478.00
 
 Top Products :
 Laptop :  ₹3889210 
@@ -31,10 +36,10 @@ North : ₹3983635
 Least Sales by Region :
 West : ₹2123922 
 
-Top sale on day :
+Top sale on Day :
 2024-01-16 : ₹373932
 
-Least sale on day :
+Least sale on Day :
 2024-02-23 : ₹6540
 
 Top sale on Month :
